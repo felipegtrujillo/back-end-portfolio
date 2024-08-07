@@ -9,9 +9,4 @@ Currently, two official plugins are available:
 # Front-End-Portfolio
 <<<<<<< HEAD
 # back-end-portfolio
-# back-end-portfolio
-# back-end-portfolio
-# back-end-portfolio
-=======
 
->>>>>>> 1050649f06546c9083a7bf749871f1a078eac010
