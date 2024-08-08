@@ -1,30 +1,27 @@
 import {
-    mobile,
-    backend,
-    web,
     javascript,
     typescript,
     html,
     css,
     reactjs,
-    redux,
     tailwind,
     nodejs,
-    mongodb,
     git,
     figma,
-    docker,
-    meta,
+    sql,
+    angular,
     seidor,
     colmena,
-    carrent,
-    jobit,
-    tripguide,
     threejs,
     felipeph,
     falabella,
     scl,
-    desafio
+    desafio,
+    ricomida,
+    osprey,
+    bootstrap,
+    sequelize
+
   } from "../assets";
   
   export const navLinks = [
@@ -54,36 +51,18 @@ import {
     { name: "JavaScript", icon: javascript, progress: 70, color: "#5f90d3"},
     { name: "CSS3", icon: css, progress: 70, color: "#5f90d3"},
     { name: "Typescript", icon: typescript, progress: 30, color: "#5f90d3"  },
-    { name: "React JS", icon: reactjs, progress: 60, color: "#5f90d3" },
+    { name: "ReactS", icon: reactjs, progress: 55, color: "#5f90d3" },
+    { name: "Angular", icon: angular, progress: 54, color: "#5f90d3"},
     { name: "Tailwind CSS", icon: tailwind, progress: 50, color: "#5f90d3"},
-    { name: "Bootstrap", icon: reactjs, progress: 60, color: "#5f90d3"  },
+    { name: "Bootstrap", icon: bootstrap, progress: 60, color: "#5f90d3"  },
     { name: "Node JS", icon: nodejs, progress: 80, color: "#5f90d3"  },
-    { name: "three JS", icon: threejs, progress: 50, color: "#5f90d3"},
+    { name: "Sequelize", icon: sequelize, progress: 68, color: "#5f90d3"  },
+    { name: "Three JS", icon: threejs, progress: 50, color: "#5f90d3"},
     { name: "Git", icon: git, progress: 60, color: "#5f90d3" },
-    
+
     // otras tecnologías...
   ];
 
-  const tecnologias = [
-
-    {
-      name: "Redux Toolkit",
-      icon: redux,
-    },
-    {
-      name: "MongoDB",
-      icon: mongodb,
-    },
-
-    {
-      name: "figma",
-      icon: figma,
-    },
-    {
-      name: "docker",
-      icon: docker,
-    },
-  ];
   
   const experiences = [
     {
@@ -95,7 +74,7 @@ import {
       points: [
         "Consultant and trainee developer at companys ballerina, molymet and colmena golden cross.",
         "Develope Forms, label printing, reports, incidents, custom programs, batch input, among others.",
-        "Improvements and incidents",
+        "Development of custom programs, Improvements and incidents.",
       ],
     },
     {
@@ -128,8 +107,8 @@ import {
       iconBg: "#E6DEDD",
       date: "Agu 2021 - Feb 2023",
       points: [
-        "Z developments in FI module, incidents, improvements,web service, Worfklow implementation, massive load,sending emails, Fiori elements List reports, cds.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Z developments in FI module, incidents, improvements,web service, Worfklow implementation, massive load,sending emails, ALB's, cds.",
+        "Workflow implementation for related companys",
       ],
     },
     {
@@ -139,103 +118,57 @@ import {
       iconBg: "#E6DEDD",
       date: "Jan 2024 - May 2024",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
+        "Course and Certificate Full-stack Trainee Development with Javascript",
+        "Freelance development at vakum.cl",
+        "Autonomous learning of new technologies.",
  
       ],
     },
   ];
   
-  const testimonials = [
-    {
-      testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
-    },
-    {
-      testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
-    },
-    {
-      testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
-      designation: "CTO",
-      company: "456 Enterprises",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
-    },
-  ];
-  
   const projects = [
     {
-      name: "Car Rent",
+      name: "Ricomida",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "",
       tags: [
         {
-          name: "react",
+          name: "Html",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "Css",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "Bootstrap",
           color: "yellow-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: ricomida,
+      source_code_link: "https://felipegtrujillo.github.io/Ricomida/",
     },
     {
-      name: "Job IT",
+      name: "Osprey",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "",
       tags: [
         {
-          name: "react",
+          name: "Leaflet",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "CSS",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "GeoJson",
           color: "yellow-text-gradient",
         },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
-    },
-    {
-      name: "Trip Guide",
-      description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-      tags: [
-        {
-          name: "nextjs",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "supabase",
-          color: "green-text-gradient",
-        },
-        {
-          name: "css",
-          color: "yellow-text-gradient",
-        },
-      ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
-    },
+      image: osprey,
+      source_code_link: "https://github.com/felipegtrujillo/Geojson-map",
+    }
   ];
   
-  export { services, technologies, experiences, testimonials, projects };
+  export { services, technologies, experiences, projects };

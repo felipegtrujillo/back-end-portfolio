@@ -20,7 +20,7 @@ const Hero = () => {
          </div>
          <div>
     <motion.h1
-      className={`${styles.heroHeadText} text-[#d66433]`}
+      className={`${styles.heroHeadText} text-[#d56433]`}
       initial={{ opacity: 0, y: -50 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 1, ease: 'easeInOut' }}

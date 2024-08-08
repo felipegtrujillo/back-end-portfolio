@@ -43,6 +43,7 @@ const Contact = () => {
 
       if (data.status === "ok") {
         console.log("Mensaje Enviado Correctamente");
+        alert("Mensaje Enviado Correctamente");
         setForm({ name: '', email: '', phone: '', message: '' }); // Limpiamos el formulario después del envío
       } else {
         alert("Error al enviar el mensaje");
