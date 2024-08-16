@@ -10,9 +10,15 @@ app.use(express.urlencoded({ extended: true }));
 /* ------MIDDLEWARES---------------------------------------------------------- */
 /* middleware para aceptar jsons */
 app.use(express.json());
+const corsOptions = {
+  origin: 'https://www.piesdemercurio.com',
+  optionsSuccessStatus: 200
+};
 /* ----------------------CORS----------------------------------------- */
 /* ----------------------CORS----------------------------------------- */
 app.use(cors({
+   origin: 'https://www.piesdemercurio.com',
+   optionsSuccessStatus: 200,
     origin: '*', // Puedes especificar orígenes permitidos si lo prefieres
     methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'], // Métodos HTTP permitidos
     allowedHeaders: ['Content-Type', 'Authorization'] // Cabeceras permitidas
