@@ -13,7 +13,8 @@ const enviarEmailNuevo = ( email, name, phone, content) => {
   /* Enviar un mail al cliente de params */
   let mailOptions = {
     from: MI_MAIL,
-    to: email,
+    to: "felipegtrujillo@gmail.com",
+    remitent: email,
     subject: name,
     phone: phone,
     content: content,
